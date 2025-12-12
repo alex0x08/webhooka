@@ -1,0 +1,9 @@
+
+
+//internal
+
+curl -L -X GET  -H 'X-Webhooka-Auth: MDIwEAYHKoZIzj0CAQYFK4EEAAYDHgAEOSnsUrEOhSWErFap2IRdrbOkSrPGww6WBk+aMw=='  http://localhost:8086/webhooka/internal/api/hooks
+
+// public
+
+curl -L -X POST  --data '{ "param1":"test", "param2":"even more test" }' http://localhost:8081/webhooka/api/hooks/public
